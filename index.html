@@ -6,15 +6,51 @@
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 
+    <!--FONTAWESOME CSS-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
     <style>
         div {
             font-family: 'Space Mono', monospace;
+        }
+
+        .container {
+            margin-top: 24px;
+            width: 70%;
+        }
+
+        hr#horizontal {
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #FFC107;
+            margin: 1em 0;
+            padding: 0;
+        }
+
+        hr#vertical {
+            display: inline-block;
+            height: 30px;
+            border: 0;
+            border-left: 1px solid #FFC107;
+            margin: 0 1em;
+            padding: 0;
+        }
+
+        ul#menu li {
+            display: inline;
+            text-align: center;
+        }
+
+        .fa {
+            font-size: 20px;
+            color: #FF9800;
         }
     </style>
 </head>
 
 <body>
-    <div>
+    <div class="container">
         <h1>Varun Barve</h1>
         <p>
             Hi, I'm Varun Barve. I primarily develop android apps. But over the course of my career, I have also branched out to various
@@ -22,6 +58,26 @@
         <p>Apart from development I play badminton, run marathons, watch a tonne of movies and enjoy having intellectual conversation
             about any topic that interests me.
         </p>
+
+        <ul id="menu">
+            <li>
+                <i class="fa fa-phone" style="font-size: 20px"></i>
+                <span>9730363383</span>
+            </li>
+            <hr id="vertical" />
+            <li>
+                <i class="fa fa-envelope" style="font-size: 20px"></i>
+                <span>varun7691@gmail.com</span>
+            </li>
+            <hr id="vertical" />
+            <li>
+                <i class="fa fa-home" style="font-size: 20px"></i>
+                <span>Malad (west), Mumbai</span>
+            </li>
+        </ul>
+        <hr id="horizontal" />
+
+        <!-- <h1>Work Experience</h1> -->
     </div>
 </body>
 
