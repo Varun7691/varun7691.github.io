@@ -29,7 +29,7 @@
             display: block;
             height: 1px;
             border: 0;
-            border-top: 1px solid #FFC107;
+            border-top: 1px solid rgb(255, 219, 111);
             margin: 1em 0;
             padding: 0;
         }
@@ -68,6 +68,18 @@
         .work-exp-block {
             border-right: 1px solid #FFC107;
         }
+
+        .progress {
+            background-color: #fff0c1;
+        }
+
+        .progress .determinate {
+            background-color: #FFC107;
+        }
+
+        .interests {
+            font-size: 50px;
+        }
     </style>
 </head>
 
@@ -81,42 +93,42 @@
             about any topic that interests me.
         </p>
 
-        <ul id="menu">
-            <li>
+        <!-- CONTACT -->
+        <div class="row">
+            <div class="col s12 m4" style="padding: 15px 0;">
                 <i class="fa fa-phone" style="font-size: 20px"></i>
                 <span>9730363383</span>
-            </li>
-            <hr id="vertical" />
-            <li>
+            </div>
+            <div class="col s12 m4" style="padding: 15px 0;">
                 <i class="fa fa-envelope" style="font-size: 20px"></i>
                 <span>varun7691@gmail.com</span>
-            </li>
-            <hr id="vertical" />
-            <li>
+            </div>
+            <div class="col s12 m4" style="padding: 15px 0;">
                 <i class="fa fa-home" style="font-size: 20px"></i>
                 <span>Malad (west), Mumbai</span>
-            </li>
-        </ul>
+            </div>
+        </div>
         <div class="divider"></div>
 
+        <!-- WORK -->
         <h4>Work Experience - 4 Yrs</h4>
         <div class="row">
-            <div class="col s6" style="margin:0 0px 0 0; padding: 10px 25px">
+            <div class="col s12 m6" style="margin:0 0px 0 0; padding: 10px 25px">
                 Lead. Android Devloper
                 <p id="company-name">Ziva Lifestyle India Pvt. Ltd.</p>
                 <p id="exp-years">OCT 2016 - PRESENT</p>
             </div>
-            <div class="col s6" style="margin:0 0px 0 0;padding: 10px 25px">
+            <div class="col s12 m6" style="margin:0 0px 0 0;padding: 10px 25px">
                 Sr. Android Devloper
                 <p id="company-name">Truckola Technologies</p>
                 <p id="exp-years">MAY 2016 - OCT 2016</p>
             </div>
-            <div class="col s6" style="margin:0 0px 0 0;padding: 10px 25px">
+            <div class="col s12 m6" style="margin:0 0px 0 0;padding: 10px 25px">
                 Associate - Mobile Development - Android
                 <p id="company-name">Aurum Communications</p>
                 <p id="exp-years">SEP 2014 - JUN 2016</p>
             </div>
-            <div class="col s6" style="margin:0 0px 0 0;padding: 10px 25px">
+            <div class="col s12 m6" style="margin:0 0px 0 0;padding: 10px 25px">
                 Android Devloper
                 <p id="company-name">Porcupyne Inc.</p>
                 <p id="exp-years">APR 2014 - SEP 2014</p>
@@ -124,6 +136,79 @@
         </div>
         <div class="divider"></div>
 
+        <!-- SKILLS -->
+        <h4>Skills</h4>
+        <div class="row">
+            <div class="col s12 m3">
+                <span>Android</span>
+                <div class="progress">
+                    <div class="determinate" style="width:90%"> </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <span>Java</span>
+                <div class="progress">
+                    <div class="determinate" style="width:80%"> </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <span>Kotlin</span>
+                <div class="progress">
+                    <div class="determinate" style="width:50%"> </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <span>Anko</span>
+                <div class="progress">
+                    <div class="determinate" style="width:35%"> </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <span>Spring</span>
+                <div class="progress">
+                    <div class="determinate" style="width:40%"> </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <span>Hibernate</span>
+                <div class="progress">
+                    <div class="determinate" style="width:40%"> </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <span>JSP</span>
+                <div class="progress">
+                    <div class="determinate" style="width:30%"> </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <span>MySQL</span>
+                <div class="progress">
+                    <div class="determinate" style="width:70%"> </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <span>JSON</span>
+                <div class="progress">
+                    <div class="determinate" style="width:90%"> </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <span>XML</span>
+                <div class="progress">
+                    <div class="determinate" style="width:90%"> </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <span>Material Design</span>
+                <div class="progress">
+                    <div class="determinate" style="width:90%"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+
+        <!-- PROJECT -->
         <h4>Projects</h4>
         <div class="row">
             <!-- ENRICH -->
@@ -342,7 +427,7 @@
                 </div>
             </div>
 
-            <!-- VFS -->
+            <!-- VFS - Corporate App -->
             <div class="col s12 m3">
                 <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -370,7 +455,7 @@
                 </div>
             </div>
 
-            <!-- VFS -->
+            <!-- VFS - DVPC -->
             <div class="col s12 m3">
                 <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -427,7 +512,7 @@
                 </div>
             </div>
 
-            <!-- GLO -->
+            <!-- Bollywood Directory -->
             <div class="col s12 m3">
                 <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -453,6 +538,63 @@
             </div>
         </div>
         <div class="divider"></div>
+
+        <!-- INTEREST -->
+        <h4>Interests</h4>
+        <div class="row">
+            <div class="col s12 m2" style="text-align: center;">
+                <i class="fa fa-film interests"></i>
+                <p>Movies</p>
+            </div>
+            <div class="col s12 m2" style="text-align: center;">
+                <i class="fa fa-glass interests"></i>
+                <p>Drinking</p>
+            </div>
+            <div class="col s12 m2" style="text-align: center;">
+                <i class="fa fa-headphones interests"></i>
+                <p>Music</p>
+            </div>
+            <div class="col s12 m2" style="text-align: center;">
+                <i class="fa fa-gamepad interests"></i>
+                <p>Gaming</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+
+        <!-- CONNECT AT -->
+        <h4>Connect At</h4>
+        <div class="row">
+            <div class="col s12 m2" style="text-align: center;">
+                <a href="https://www.linkedin.com/in/varunbarve7691/">
+                    <i class="fa fa-linkedin interests"></i>
+                </a>
+                <p>LinkedIn</p>
+            </div>
+            <div class="col s12 m2" style="text-align: center;">
+                <a href="https://www.facebook.com/Varun7691">
+                    <i class="fa fa-facebook-square interests"></i>
+                </a>
+                <p>Facebook</p>
+            </div>
+            <div class="col s12 m2" style="text-align: center;">
+                <a href="https://github.com/Varun7691">
+                    <i class="fa fa-github interests"></i>
+                </a>
+                <p>Github</p>
+            </div>
+            <div class="col s12 m2" style="text-align: center;">
+                <a href="https://stackoverflow.com/users/2776913/varun-barve">
+                    <i class="fa fa-stack-overflow interests"></i>
+                </a>
+                <p>Stack Overflow</p>
+            </div>
+            <div class="col s12 m2" style="text-align: center;">
+                <a href="https://www.instagram.com/varun7691/">
+                    <i class="fa fa-instagram interests"></i>
+                </a>
+                <p>Instagram</p>
+            </div>
+        </div>
     </div>
 
     <!-- Compiled and minified JavaScript -->
