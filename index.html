@@ -9,13 +9,19 @@
     <!--FONTAWESOME CSS-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!-- MATERIAL ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <style>
         div {
             font-family: 'Space Mono', monospace;
         }
 
         .container {
-            margin-top: 24px;
+            margin: 24px auto;
             width: 70%;
         }
 
@@ -46,12 +52,28 @@
             font-size: 20px;
             color: #FF9800;
         }
+
+        p#exp-years {
+            margin: 0;
+            color: #9e9e9e;
+            font-size: 15px;
+        }
+
+        p#company-name {
+            margin: 0;
+            color: #FFC107;
+            font-size: 15px;
+        }
+
+        .work-exp-block {
+            border-right: 1px solid #FFC107;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h1>Varun Barve</h1>
+        <h3>Varun Barve</h3>
         <p>
             Hi, I'm Varun Barve. I primarily develop android apps. But over the course of my career, I have also branched out to various
             technologies like iOS, Java for back-end, MySQL, HTML, CSS, JavaScript, Jquery.</p>
@@ -75,10 +97,366 @@
                 <span>Malad (west), Mumbai</span>
             </li>
         </ul>
-        <hr id="horizontal" />
+        <div class="divider"></div>
 
-        <!-- <h1>Work Experience</h1> -->
+        <h4>Work Experience - 4 Yrs</h4>
+        <div class="row">
+            <div class="col s6" style="margin:0 0px 0 0; padding: 10px 25px">
+                Lead. Android Devloper
+                <p id="company-name">Ziva Lifestyle India Pvt. Ltd.</p>
+                <p id="exp-years">OCT 2016 - PRESENT</p>
+            </div>
+            <div class="col s6" style="margin:0 0px 0 0;padding: 10px 25px">
+                Sr. Android Devloper
+                <p id="company-name">Truckola Technologies</p>
+                <p id="exp-years">MAY 2016 - OCT 2016</p>
+            </div>
+            <div class="col s6" style="margin:0 0px 0 0;padding: 10px 25px">
+                Associate - Mobile Development - Android
+                <p id="company-name">Aurum Communications</p>
+                <p id="exp-years">SEP 2014 - JUN 2016</p>
+            </div>
+            <div class="col s6" style="margin:0 0px 0 0;padding: 10px 25px">
+                Android Devloper
+                <p id="company-name">Porcupyne Inc.</p>
+                <p id="exp-years">APR 2014 - SEP 2014</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+
+        <h4>Projects</h4>
+        <div class="row">
+            <!-- ENRICH -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/enrich.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Enrich Salon App
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Enrich Salon App
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="company-name">Enrich Hair and Skin Solutions Pvt. Ltd.</p>
+                        <p id="exp-years">It’s easier than ever to book your appointments with us. Intall the Enrich app and get done in a
+                            jiffy! </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">
+                            <i class="material-icons ">android</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ENRICH ACADEMY - APP -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/enrich_academy.png" style="background-color: #000000;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Academy - App
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Academy - App
+                            <i class="material-icons right top">close</i>
+                        </span>
+                        <p id="company-name">Enrich Hair and Skin Solutions Pvt. Ltd.</p>
+                        <p id="exp-years">At the Enrich Academy, we help you hone your skills and polish your talent. We offer courses in hair,
+                            skin, makeup and salon management.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://play.google.com/store/apps/details?id=com.enrich.salonapp&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                            <i class="material-icons">android</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ENRICH ACADEMY - DASHBOARD -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/enrich_academy.png" style="background-color: #000000;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Academy - Dashboard
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Academy - Dashboard
+                            <i class="material-icons right top">close</i>
+                        </span>
+                        <p id="company-name">Enrich Hair and Skin Solutions Pvt. Ltd.</p>
+                        <p id="exp-years">At the Enrich Academy, we help you hone your skills and polish your talent. We offer courses in hair,
+                            skin, makeup and salon management.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ZIVA -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/ziva.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Ziva
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Ziva
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="company-name">Ziva Lifestyle India Pvt. Ltd.</p>
+                        <p id="exp-years">Ziva is a beauty and wellness product that provides premium salon based services through a mobile
+                            platform. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">
+                            <i class="material-icons ">android</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FREETIMR -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/freetimr_conusmer.png" style="background-color: #1A74B5;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">FreeTimr - Consumer
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">FreeTimr - Consumer
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="company-name">FreeTimr</p>
+                        <p id="exp-years">FreeTimr is a two part project, one for the consumer and one for the business. This Project mainly
+                            focuses on connecting people with free time, where they can do a part time job and business that
+                            need people for doing a part time job. This app was the conusmer side app, where poeple will
+                            cretate a profile and based on the profile various different job will be shown to the person.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <span style="color:#9e9e9e;">In Development</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- FREETIMR -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/freetimr_conusmer.png" style="background-color: #1A74B5;">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">FreeTimr - Business
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">FreeTimr - Business
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="company-name">FreeTimr</p>
+                        <p id="exp-years">This app was the business side app, where a company or a person can create a profile for themselves.
+                            Also the business user has to post jobs with their requirements. Based on the user profile that
+                            we already have, these jobs are then pushed to the consumer/candidate. The app also consists
+                            of a chat functionality where both the canidate and the employer can chat.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <span style="color:#9e9e9e;">In Development</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TRUCKOLA -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/truckola.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Truckola
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Truckola
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="company-name">Truckola Logistics Pvt. Ltd.</p>
+                        <p id="exp-years">Truckola was an app made for a transport and logistics firm. The app was for the truck drivers to
+                            user. Various Cargo loads and shipments were show cased on the app with the optimal rate for
+                            the transport. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">
+                            <i class="material-icons ">android</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EVERY TRAILER -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/every_trailer_logo.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Every Trailer
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Every Trailer
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="company-name">EveryMedia Technologies Pvt. Ltd.</p>
+                        <p id="exp-years">Why search for the latest video on YouTube when you can get it in just one click on Everytrailer!
+                            Be it a trailer, a song, a dialogue promo or even behind-the-scenes, find every video you want
+                            from the world of cinema here on this user-friendly app. A must-have for every cinema lover.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">
+                            <i class="material-icons ">android</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VFS -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/vfs_corporate_app.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Corporate App
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Corporate App
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="company-name">VFS Global Services</p>
+                        <p id="exp-years">VFS Global is the world's largest outsourcing and technology services specialist for governments
+                            and diplomatic missions worldwide. The company manages visa and passport issuance-related administrative
+                            and non-judgemental tasks for its client governments. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">
+                            <i class="material-icons ">android</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VFS -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/dvpc_india.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">DVPC
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">DVPC
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="company-name">VFS Global Services</p>
+                        <p id="exp-years">One of the biggest apps that I have worked on in my career. This app was used to apply for Dubai
+                            Visa directly from your smartphone. The app captures various details of the user, which are sercurly
+                            stored on the server. The user can then directly apply for Visa after paying the fees online.
+                            I faced various challenges and complications while developing the app and effectively learnt
+                            a lot. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">
+                            <i class="material-icons ">android</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GLO -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/glo.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Glo
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Glo
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="company-name">Design Infotech</p>
+                        <p id="exp-years">GLO Decorative Panels & Planks Use the immaculate fusion of the best of quality and creativity to
+                            make your house an aesthetic masterpiece. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">
+                            <i class="material-icons ">android</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GLO -->
+            <div class="col s12 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/android-logo.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Bollywood Directory
+                            <!-- <i class="material-icons right">more_vert</i> -->
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Bollywood Directory
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p id="company-name">Porcupyne Inc.</p>
+                        <p id="exp-years">The first app i ever created. It was a basic directory of some of the celebrities in bollywood. The
+                            app extensively relied on in-app database. Currently no in the Google PlayStore. </p>
+                    </div>
+                    <div class="card-action">
+                        <span style="color:#9e9e9e;">N/A</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
     </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </body>
 
 </html>
